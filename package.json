@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240524.0",
+    "@types/node": "^22.7.4",
     "typescript": "^5.4.5",
     "wrangler": "3.57.2"
   },
@@ -10,6 +11,5 @@
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler deploy"
-  },
-  "dependencies": {}
+  }
 }

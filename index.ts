@@ -3,7 +3,7 @@ addEventListener("fetch", (event) => {
 });
 
 const openAIWsUrl = "wss://api.openai.com/v1/realtime";
-const openAIToken = process.env.OPENAI_API_KEY;
+const openAIToken = OPENAI_API_KEY;
 
 async function handleRequest(request: Request) {
   const url = new URL(request.url);

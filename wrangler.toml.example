@@ -1,6 +1,6 @@
-name = "deepgram-agent"
+name = "oai-realtime-twilio"
 main = "index.ts"
-compatibility_date = "2024-05-29"
+compatibility_date = "2024-10-01"
 workers_dev = true
 
 [vars]
